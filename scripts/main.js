@@ -23,7 +23,20 @@ function setUserName() {
   }
   myButton.onclick = function() {
     setUserName();
+    
   }
 
   let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
+
+const para = document.querySelector('ul');
+
+para.addEventListener('click', updateName);
+
+function updateName() {
+  let name = prompt('Enter a new name');
+  para.textContent = 'be positive,Think Positive ' + name;
+}
+myButton.onclick = function() {
+  setUserName();
+}

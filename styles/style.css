@@ -4,19 +4,19 @@ p ,h1{
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: 'Pacifico', cursive; ; /* this should be the rest of the font-family: 'Pacifico', cursive;\output you got from Google fonts */
-  }
+    
+}
   h1 {
     font-size: 60px;
     text-align: center;
+    background-color:yellowgreen;
   }
   p {
     font-size: 19px;    
     line-height: 3;
     letter-spacing: 1px;
   }
-  html {
-    background-color:rgb(229, 238, 240);
-  }
+
   body {
     width: 900px;
     margin: 0 auto;
@@ -27,3 +27,22 @@ html {
     display: block;
     margin: 0 auto;
   }
+   nav{
+    font-size: 30px;
+    text-align: right;
+    text-shadow: darkkhaki;
+    list-style-position: inside;
+  }
+  .container {
+    width: 940px;
+    margin-left: auto;
+    margin-right:auto ;
+    background-image: url(images/download.jpg);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+
+
+  }
+
+
